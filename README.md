@@ -1,99 +1,81 @@
-# Jad Elahmad — personal website
+# Personal Portfolio — jadelahmad.com
 
-A lightweight, responsive personal website in HTML, CSS, and vanilla JavaScript. It includes your supplied portrait and speaking photograph, editable project/event collections, and server-side RSS aggregation. No framework, database, API key, or AWS account is required.
+One production website lives at the repository root. This package was compared with the public `jadtechlabs/personal-portfolio` repository at commit `be2f0916315c5eb4cb418c0c6b1f8895d3e7e5ac` on September 28, 2026. The live domain responded from GitHub Pages. No changes have been pushed or published.
 
-## Put the code in GitHub
+## Upload This Package
 
-1. Unzip `jad-elahmad-website.zip` on your computer.
-2. Open your GitHub repository and choose **Add file → Upload files**.
-3. Drag the extracted contents into GitHub, including the `public`, `functions`, and `shared` folders. Upload the extracted files, not the ZIP itself.
-4. Commit your changes. This saves the code; it does not automatically put a new website online unless you already connected a hosting service.
+1. Unzip `personal-portfolio-final.zip`.
+2. In your existing repository, remove the **old `public/` folder** and **`assets/speaking-event.webp`**. The old public folder was an exact duplicate of the root site. The extra speaking image was not referenced by the site, configuration, functions, or tests.
+3. Upload everything **inside** the new `personal-portfolio-final/` folder into the existing repository root, replacing matching files. This restores `public/` with only the news data. Include `.github/`; on a Mac, press Command–Shift–Period to show hidden folders.
+4. Commit the changes to the same branch you already publish. Keep your current GitHub Pages and DNS settings.
 
-## Recommended: connect GitHub to Cloudflare Pages
+Do **not** upload the ZIP itself or put a `personal-portfolio-final` folder inside the repository. Upload its contents. Do **not** delete `CNAME`, your `.git` folder, or the repository itself. The included `CNAME` is the exact original file containing `jadelahmad.com`. If earlier review files were uploaded, delete `REVIEW-PREVIEW.html`, `COMPLETE-CHANGED-FILES.md`, and `CHANGELOG.md`; none belongs in this package.
 
-1. In Cloudflare, open **Workers & Pages**, create a **Pages** project, and connect the GitHub repository.
-2. Choose the `main` branch and **None** as the framework preset.
-3. Leave the build command blank. Set **Build output directory** to `public` and leave **Root directory** blank.
-4. Deploy. Cloudflare serves the static site and detects the `/functions` folder at the repository root. The news endpoint is `/api/news`.
-5. Add your custom domain through that Pages project's **Custom domains** setting when you are ready. Keep your DNS on Cloudflare.
+GitHub's web upload replaces matching files but does not remove absent files. The two removals in step 2 are therefore required to remove the old duplicates. No other files from the audited repository need to remain outside this package. If you have changed the repository since the audited commit, retain those independent changes until compared.
 
-Use Git integration for this package. Uploading only the `public` folder through a drag-and-drop static deployment does not install the functions. Test the site at its Cloudflare address before pointing your domain to it.
+## Production Structure
 
-## The files you will edit most
+```text
+.github/
+  workflows/refresh-news.yml
+assets/
+  cycling.webp
+  hiking.webp
+  jad-portrait.webp
+  jad-speaking.webp
+  running.webp
+functions/
+  api/medium.js
+  api/news.js
+public/
+  data/news.json
+scripts/
+  update-news.mjs
+shared/
+  feeds.js
+tests/
+  feeds.test.js
+CNAME
+README.md
+_config.yml
+_headers
+_routes.json
+config.js
+index.html
+package.json
+script.js
+styles.css
+```
 
-| File | Purpose |
+`index.html`, `styles.css`, `script.js`, `config.js`, and `assets/` are the only production copies. `public/` contains JSON data only. `_config.yml` prevents GitHub Pages from publishing repository support code and this README; it does not change the publishing branch or custom domain. The existing function files are preserved for compatibility but are not called on GitHub Pages. `_headers` and `_routes.json` are preserved byte-for-byte; GitHub Pages does not execute Cloudflare routing or apply its header configuration.
+
+## News And Links
+
+The browser reads `public/data/news.json` from the same site; there is no browser RSS request and no call to a nonexistent GitHub Pages API. Ten retrieved headlines are included. Headline links, source names, and dates are displayed without article bodies. The three publisher cards always remain visible. Missing, malformed, or older-than-14-days headlines leave a clean publisher-only section. No public error message is shown.
+
+The included GitHub workflow refreshes the snapshot approximately every six hours, commits changed data, and explicitly requests a rebuild of the existing GitHub Pages site. This avoids relying on a workflow-generated commit to trigger another build. It uses the repository's built-in token with contents and Pages write permissions; no personal token or new hosting provider is required. GitHub Actions must be permitted by repository policy; branch protection can block its commit. This workflow has been reviewed locally but has not been run in your account. If it cannot run, the snapshot and publisher fallback still work. Nothing in it changes the custom domain or Pages source settings.
+
+GitHub reference: https://docs.github.com/en/rest/pages/pages#request-a-github-pages-build
+
+LinkedIn remains the contact destination. Your unprovided Medium/GitHub/Strava URLs and email remain blank; their optional profile links stay hidden. To add these later, edit `config.js`. Main copy is in `index.html`; colors and responsive layouts are in `styles.css`.
+
+## Final Audit
+
+| Check | Result |
 | --- | --- |
-| `public/index.html` | Main text and all seven sections |
-| `public/styles.css` | Navy, blue, and white theme; mobile layouts |
-| `public/config.js` | Social links, email, photo paths, projects, and speaking engagements |
-| `public/script.js` | Navigation, editable collections, and feed display |
-| `public/assets/` | Portrait, speaking photos, and any new photos |
-| `shared/feeds.js` | RSS sources, normalization, deduplication, categories, and caching |
-| `functions/api/news.js` | Cloudflare news endpoint |
-| `functions/api/medium.js` | Cloudflare Medium endpoint |
+| Actual repository comparison | All 25 original files retrieved and compared; root HTML/CSS/JS/config matched the old public copies |
+| Production copies | Exactly one index, stylesheet, browser script, configuration file, and asset set |
+| Domain and host compatibility files | Original CNAME, _headers, and _routes.json preserved byte-for-byte |
+| CSS, JS, image, anchor paths | All referenced local files and anchor targets resolve from the repository root |
+| Personal photos | Running, cycling, and Mount Rainier images included, with alt text and correct paths |
+| News behavior | Client script checks passed for successful, failed, and malformed snapshots; no API call occurs on GitHub Pages |
+| Feed processing | Seven tests passed, covering parsing, deduplication, cache behavior, partial/total failures, and safe publisher links |
+| Navigation | Script-level menu open/close and Escape/focus checks passed |
+| Desktop/mobile | Responsive layouts and breakpoints reviewed in code; browser visual/interaction verification remains incomplete because browser installation failed in this environment |
+| External URLs | Direct publisher URLs verified against feed data; reachable Hacker News links returned 200; other requests encountered timeouts or publisher access restrictions, including LinkedIn 999 and BleepingComputer 403, so not every destination could be confirmed live |
+| Exposure | No previews, temporary files, credentials, workspace paths, or development URLs in production; supporting source is excluded from the Pages output |
+| Actual deployment | Not performed; private repository Pages settings and workflow execution could not be verified |
 
-## Add your links and contact address
+This is a complete replacement package for the **audited repository content**, with the exact removals above. It preserves the existing root deployment layout. It is not a claim that an unperformed live deployment or unavailable browser visual check has passed.
 
-Edit `public/config.js`. LinkedIn is already set to the URL you supplied. Medium, GitHub, Strava, and email are intentionally blank so no usernames or contact details are invented. Blank Medium/GitHub links are visibly marked “soon”; a blank Strava link is hidden. With no email, hiring and speaking inquiries go to LinkedIn.
-
-To add a direct email inquiry link, set `email` to the address you want publicly visible. There is no contact form or private message storage.
-
-## Activate Medium articles
-
-1. Set `medium` in `public/config.js` to your full profile URL, such as `https://medium.com/@YOUR_USERNAME`.
-2. In your Cloudflare Pages project's production environment variables, add `MEDIUM_FEED_URL` with the value `https://medium.com/feed/@YOUR_USERNAME`.
-3. Redeploy. This endpoint fetches up to three posts server-side. The value is not a secret.
-
-This initial version accepts Medium author feeds at `https://medium.com/feed/...`. Custom-domain publications need an explicit server-side allowlist change. If the feed fails, readers can still follow your Medium profile link.
-
-## Add or replace photos
-
-Put your photo in `public/assets/` and change its path in `public/config.js`. The portrait and speaking image are already included. Running and cycling photo areas appear automatically when their paths are set. WebP or compressed JPEG is recommended. Update image descriptions in `public/index.html` or `public/script.js` if the subject changes. Keep photographs under roughly 500 KB when practical.
-
-The supplied event-sign photo is also included as `assets/speaking-event.webp` for a future event entry. Do not publish badge photos or other photos containing details you do not want public.
-
-## Add projects and speaking events
-
-The `projects` and `events` arrays in `public/config.js` contain commented examples of every supported field. Copy an example, remove its comment markers, and add real content. Leave unavailable links blank. The project placeholder disappears when you add the first project. Event cards appear below the speaking section when events are added.
-
-Supported projects: name, description, technologies, image, imageAlt, GitHub link, demo link, status.
-Supported events: name, organization, topic, date (`YYYY-MM-DD`), description, image, imageAlt, event URL.
-
-No project accomplishments, event titles/dates, testimonials, employer names, or performance metrics have been invented. The supplied speaking photo is displayed without inferring an event history.
-
-## News behavior
-
-The server fetches configured NIST, CISA, and FTC feeds in parallel. FTC items are filtered for security, privacy, AI, and related topics. Results are normalized, stripped to plain text, deduplicated by headline and URL, sorted newest first, and capped at 10. Excerpts are limited to 32 words. The feed shows recent updates; it does not claim a human editorial ranking of importance.
-
-Successful results are cached at the edge for 10 minutes (2 minutes when some sources fail). Each fetch has a 9-second timeout and 2 MB size limit. A source failure does not hide successful sources. If all sources fail, the site shows an honest unavailable state and direct links to source publications. Feeds may occasionally block requests or change URLs; edit `SOURCES` in `shared/feeds.js` to maintain them.
-
-All news is rendered as text, not injected HTML. Readers follow links to the original publishers. There is no tracking or analytics installed. Google Fonts is the only third-party font request; system font fallbacks keep the site readable if it is blocked.
-
-## GitHub Pages alternative
-
-GitHub can store this code while Cloudflare hosts it; you do not need GitHub Pages as well.
-
-If you choose GitHub Pages, publish the contents of `public/` as your site's root (or copy them into a `/docs` folder and configure Pages to publish that folder). The static site works, but GitHub Pages cannot execute the `/functions` endpoints. Deploy the RSS API separately, set `apiBase` in `public/config.js` to its URL, and configure that server to allow requests from your exact website origin. Cloudflare Pages with this repository is the simpler complete setup.
-
-## Preview locally
-
-From the extracted project directory, run `python3 -m http.server 8000 --directory public` and open `http://localhost:8000`. This previews layout and navigation. It does not run the API. Opening the HTML directly also does not run the API.
-
-For the complete Cloudflare environment, use Cloudflare Wrangler's Pages development command against `public` and place `MEDIUM_FEED_URL` in a local `.dev.vars` file. Never commit `.dev.vars` or secrets.
-
-## Validation completed
-
-- JavaScript syntax checks.
-- All local assets and internal section anchors resolve.
-- RSS/Atom parsing, entity/CDATA handling, safe URL checks, date sorting, deduplication, partial source failures, caching, and Medium URL restriction tested with fixtures.
-- Private preview's HTML, CSS, JS, and image routes tested.
-- Semantic sections, image descriptions, keyboard focus styles, skip link, menu expanded state/Escape handling, reduced-motion support, and desktop/tablet/mobile CSS included.
-
-Live upstream RSS requests could not be verified from the build environment because sources blocked access. Automated tests use fixtures, not live articles. No articles are fabricated. Real browser visual QA was unavailable in this build environment; inspect desktop and mobile on Cloudflare before going public. Medium requires your URL before end-to-end verification.
-
-Official setup references:
-- https://developers.cloudflare.com/pages/functions/get-started/
-- https://www.nist.gov/coo/nist-rss-feeds
-- https://www.cisa.gov/news-events/cybersecurity-advisories
-
-The private review site is a separate deployment; this export is portable and does not require ChatGPT to host it.
+Developer checks (Node 22 or newer): `npm test` and `npm run refresh:news`.

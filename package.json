@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/feeds.test.js"
+    "test": "node --test tests/feeds.test.js",
+    "refresh:news": "node scripts/update-news.mjs"
   }
 }

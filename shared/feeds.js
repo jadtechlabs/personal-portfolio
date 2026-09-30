@@ -1,9 +1,8 @@
 // Server-only configuration. Only these fixed URLs are fetched; callers cannot supply URLs.
 export const SOURCES = [
-  { name: 'NIST', category: 'Cybersecurity', url: 'https://www.nist.gov/news-events/cybersecurity/rss.xml' },
-  { name: 'NIST Cybersecurity Insights', category: 'Cybersecurity', url: 'https://www.nist.gov/blogs/cybersecurity-insights/rss.xml' },
-  { name: 'CISA', category: 'Cybersecurity', url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml' },
-  { name: 'FTC', category: 'Compliance', url: 'https://www.ftc.gov/news-events/news/press-releases/rss', filter: /privacy|data security|cyber|artificial intelligence|\bAI\b|algorithm|surveillance|children.*online/i }
+  { name: 'KrebsOnSecurity', category: 'Cybersecurity', url: 'https://krebsonsecurity.com/feed/', hosts: ['krebsonsecurity.com'] },
+  { name: 'The Hacker News', category: 'Cybersecurity', url: 'https://feeds.feedburner.com/TheHackersNews', hosts: ['thehackernews.com'] },
+  { name: 'BleepingComputer', category: 'Cybersecurity', url: 'https://www.bleepingcomputer.com/feed/', hosts: ['www.bleepingcomputer.com', 'bleepingcomputer.com'] }
 ];
 const MAX_BYTES = 2_000_000;
 export function decode(value) {
@@ -33,9 +32,10 @@ export function parseFeed(xml, source) {
     const description=clean(rawDescription);
     const date=new Date(clean(tag(block,'pubDate')||tag(block,'published')||tag(block,'updated')||tag(block,'dc:date')));
     if(!title||!url||Number.isNaN(date.valueOf())||date.valueOf()>Date.now()+86400000)continue;
+    if(source.hosts && (new URL(url).protocol !== 'https:' || !source.hosts.includes(new URL(url).hostname))) continue;
     if(source.filter&&!source.filter.test(`${title} ${description}`))continue;
     const words=description.split(' ').filter(Boolean), excerpt=words.slice(0,32).join(' ')+(words.length>32?'…':'');
-    result.push({title,url,date:date.toISOString(),excerpt,source:source.name,category:classify(`${title} ${description}`,source.category)});
+    result.push({title,url,date:date.toISOString(),excerpt: source.name === 'Medium' ? excerpt : '',source:source.name,category:classify(`${title} ${description}`,source.category)});
   }
   return result;
 }
@@ -43,7 +43,7 @@ export function normalize(items, limit=10) {
   const seenUrls=new Set(),seenTitles=new Set();
   return items.sort((a,b)=>Date.parse(b.date)-Date.parse(a.date)).filter(item=>{const title=item.title.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');if(seenUrls.has(item.url)||seenTitles.has(title))return false;seenUrls.add(item.url);seenTitles.add(title);return true;}).slice(0,limit);
 }
-async function fetchSource(source) {
+export async function fetchSource(source) {
   const controller=new AbortController(), timer=setTimeout(()=>controller.abort(),9000);
   try {
     const response=await fetch(source.url,{headers:{Accept:'application/rss+xml, application/atom+xml, application/xml, text/xml'},signal:controller.signal,redirect:'error'});
@@ -70,7 +70,7 @@ export async function handleFeed(request,env,ctx,type) {
   const successful=settled.filter(r=>r.status==='fulfilled');
   const items=normalize(successful.flatMap(r=>r.value),type==='medium'?3:10);
   const partial=successful.length!==sources.length;
-  if(!items.length)return json({items:[],partial:true,error:'Feeds temporarily unavailable',updatedAt:new Date().toISOString()},503);
+  if(!items.length)return json({items:[],partial:true,updatedAt:new Date().toISOString()},200,120);
   const response=json({items,partial,updatedAt:new Date().toISOString()},200,partial?120:600);
   if(cache&&ctx?.waitUntil)ctx.waitUntil(cache.put(key,response.clone()));
   return response;

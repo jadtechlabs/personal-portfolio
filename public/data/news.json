@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+      "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+      "date": "2026-09-28T09:25:29.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "date": "2026-09-28T09:08:21.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+      "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+      "date": "2026-09-28T07:30:15.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+      "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "date": "2026-09-28T07:21:49.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+      "date": "2026-09-28T06:24:19.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+      "date": "2026-09-27T23:40:39.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "date": "2026-09-27T16:02:37.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "date": "2026-09-27T14:13:31.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "date": "2026-09-27T13:38:40.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "AI Risk"
+    },
+    {
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "date": "2026-09-27T07:47:57.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    }
+  ],
+  "updatedAt": "2026-09-28T12:22:29.440Z"
+}

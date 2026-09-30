@@ -5,12 +5,14 @@ window.SITE_CONFIG = {
   github: '',
   strava: '',
   email: '', // Optional public contact address; otherwise inquiries go to LinkedIn.
-  apiBase: './api', // Cloudflare Pages Functions. GitHub Pages: set this to your separate API URL.
+  apiBase: '', // GitHub Pages is static; keep empty. Functions are retained for other hosts.
+  newsSnapshot: './public/data/news.json', // Same-origin headlines; refreshed by the included GitHub workflow.
   photos: {
     portrait: 'assets/jad-portrait.webp',
     speaking: 'assets/jad-speaking.webp',
-    running: '', // e.g. 'assets/running.webp'
-    cycling: ''
+    running: 'assets/running.webp',
+    cycling: 'assets/cycling.webp',
+    hiking: 'assets/hiking.webp'
   },
   projects: [
     /* { name: 'Your project', description: 'What it does and why you built it.',

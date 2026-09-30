@@ -1,0 +1,8 @@
+# GitHub Pages publishes the root site and public/data, not repository support files.
+exclude:
+  - README.md
+  - package.json
+  - functions
+  - shared
+  - tests
+  - scripts
