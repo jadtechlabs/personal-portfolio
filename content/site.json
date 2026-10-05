@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "Making Technology\\nWork Better.\\nFor People.",
+    "intro": "I’m Jad Elahmad. I help teams plan and deliver technology initiatives, improve processes, and connect technical work to business priorities."
+  },
+  "about": {
+    "lead": "Technology works best when people understand the goal and have a clear way to get there.",
+    "paragraph1": "My background spans business systems, IT infrastructure, cybersecurity, service management, and project delivery across global teams. I started by supporting software and business systems, working with engineers, analysts, and leaders to improve how work gets done.",
+    "paragraph2": "Today, I bring those perspectives to project and program management. I help teams agree on priorities, understand dependencies, and turn business and security requirements into work they can carry out."
+  },
+  "speaking": {
+    "intro": "I’ve spoken at PASS Data Community Summit in 2022, 2023, and 2024. I enjoy sharing practical experiences and hearing how others approach the challenges of working in technology."
+  },
+  "personal": {
+    "paragraph1": "Outside of work, I’m passionate about endurance sports and the challenges that come with them. Whether I’m training for a marathon, spending a long day on the bike, or hiking somewhere new with my wife, I enjoy setting ambitious goals and putting in the work to reach them.",
+    "paragraph2": "Running, cycling, and hiking have taught me a lot about consistency, accountability, and resilience. They help me stay healthy, reset, and connect with others.",
+    "paragraph3": "Some of my favorite experiences come from the communities around these activities: sharing miles, encouraging each other through difficult days, and celebrating what we accomplish together.",
+    "paragraph4": "For me, it’s less about competing with everyone else and more about challenging myself, staying active, and enjoying the people and experiences along the way."
+  }
+}
