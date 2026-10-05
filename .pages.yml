@@ -1,0 +1,84 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: site-copy
+    label: Website Copy
+    type: file
+    path: content/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: hero
+        label: Home / Hero
+        type: object
+        fields:
+          - name: title
+            label: Main headline
+            type: text
+            description: Use a new line where you want a line break.
+          - name: intro
+            label: Introduction
+            type: text
+      - name: about
+        label: About Me
+        type: object
+        fields:
+          - name: lead
+            label: Lead sentence
+            type: text
+          - name: paragraph1
+            label: Paragraph 1
+            type: text
+          - name: paragraph2
+            label: Paragraph 2
+            type: text
+      - name: speaking
+        label: Speaking
+        type: object
+        fields:
+          - name: intro
+            label: Speaking introduction
+            type: text
+      - name: personal
+        label: Beyond The Office
+        type: object
+        fields:
+          - name: paragraph1
+            label: Paragraph 1
+            type: text
+          - name: paragraph2
+            label: Paragraph 2
+            type: text
+          - name: paragraph3
+            label: Paragraph 3
+            type: text
+          - name: paragraph4
+            label: Paragraph 4
+            type: text
+
+  - name: links-projects-events
+    label: Links, Projects & Events
+    type: file
+    path: config.js
+    format: code
+    operations:
+      delete: false
+
+  - name: page-layout
+    label: Advanced — Page HTML
+    type: file
+    path: index.html
+    format: code
+    operations:
+      delete: false
+
+  - name: styles
+    label: Advanced — Site Styles
+    type: file
+    path: styles.css
+    format: code
+    operations:
+      delete: false
