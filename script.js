@@ -80,3 +80,20 @@ $$('a[href^="https://"]').forEach(a => { a.target = '_blank'; a.rel = 'noopener 
 document.addEventListener('click', e => { if (!e.target.closest('.site-header')) closeMenu(); });
 window.addEventListener('resize', () => { if (window.innerWidth > 1200) closeMenu(); });
 loadWriting(); loadNews();
+
+// Pages CMS editable copy. The HTML remains the fallback for SEO and no-JavaScript visits.
+async function loadCmsContent() {
+  try {
+    const response = await fetch('./content/site.json', { signal: AbortSignal.timeout(4000) });
+    if (!response.ok) return;
+    const data = await response.json();
+    const get = path => path.split('.').reduce((value, key) => value?.[key], data);
+    $$('[data-cms]').forEach(node => {
+      const value = get(node.dataset.cms);
+      if (typeof value !== 'string' || !value.trim()) return;
+      if (node.dataset.cms === 'hero.title') node.innerHTML = value.replace(/\n/g, '<br>');
+      else node.textContent = value;
+    });
+  } catch { /* Keep the built-in copy if CMS content is unavailable. */ }
+}
+loadCmsContent();
