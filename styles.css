@@ -18,3 +18,7 @@ h1,h2,h3,h4,h5,h6,.eyebrow,.small-label,nav a,.photo-caption,figcaption{ text-tr
 
 /* Portfolio refinement */
 .work-card{transition:transform .2s ease,box-shadow .2s ease}.work-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(16,43,78,.09)}a:focus-visible,button:focus-visible{outline:3px solid #2260cc;outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.work-card,.button{transition:none}.work-card:hover,.button:hover{transform:none}}
+
+/* Vector JE identity in header and footer */
+.brand-logo{width:44px;height:44px;object-fit:contain;flex:none}
+footer .brand-logo{width:48px;height:48px}
