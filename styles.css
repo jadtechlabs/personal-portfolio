@@ -22,3 +22,9 @@ h1,h2,h3,h4,h5,h6,.eyebrow,.small-label,nav a,.photo-caption,figcaption{ text-tr
 /* Vector JE identity in header and footer */
 .brand-logo{width:44px;height:44px;object-fit:contain;flex:none}
 footer .brand-logo{width:48px;height:48px}
+
+/* Hero CTA: centered label and restrained tactile affordance */
+.hero .hero-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;gap:0;min-width:240px;border:1px solid #1c55b9;border-bottom-color:#17499f;border-radius:9px;background:linear-gradient(180deg,#3273e1 0%,#2461c8 100%);box-shadow:0 5px 0 #17499f,0 10px 18px rgba(16,43,78,.16);transform:translateY(0);transition:transform .16s ease,box-shadow .16s ease,background .16s ease}
+.hero .hero-cta:hover{background:linear-gradient(180deg,#397bea 0%,#286bd7 100%);transform:translateY(-2px);box-shadow:0 7px 0 #17499f,0 13px 22px rgba(16,43,78,.19)}
+.hero .hero-cta:active{transform:translateY(4px);box-shadow:0 1px 0 #17499f,0 3px 8px rgba(16,43,78,.12)}
+@media(prefers-reduced-motion:reduce){.hero .hero-cta{transition:none}.hero .hero-cta:hover{transform:none}.hero .hero-cta:active{transform:none}}
