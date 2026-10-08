@@ -28,3 +28,8 @@ footer .brand-logo{width:48px;height:48px}
 .hero .hero-cta:hover{background:linear-gradient(180deg,#397bea 0%,#286bd7 100%);transform:translateY(-2px);box-shadow:0 7px 0 #17499f,0 13px 22px rgba(16,43,78,.19)}
 .hero .hero-cta:active{transform:translateY(4px);box-shadow:0 1px 0 #17499f,0 3px 8px rgba(16,43,78,.12)}
 @media(prefers-reduced-motion:reduce){.hero .hero-cta{transition:none}.hero .hero-cta:hover{transform:none}.hero .hero-cta:active{transform:none}}
+
+/* Beyond The Office: clear achievement-led photo captions */
+.life-gallery figcaption{display:flex;flex-direction:column;align-items:flex-start;gap:5px;line-height:1.4}
+.life-gallery figcaption strong{font-weight:700;color:var(--navy,#17324d)}
+.life-gallery figcaption span{font-size:.87em;font-weight:400;opacity:.85}
