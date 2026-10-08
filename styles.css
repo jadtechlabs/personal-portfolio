@@ -45,3 +45,11 @@ footer .brand-logo{width:48px;height:48px}
 .impact-grid .work-card .card-foot{display:block;margin-top:auto;padding-top:26px;font-size:.86rem;line-height:1.5}
 @media(max-width:900px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.impact-grid .work-card:last-child{grid-column:1/-1}}
 @media(max-width:620px){.impact-grid{grid-template-columns:1fr;gap:16px}.impact-grid .work-card,.impact-grid .work-card.featured,.impact-grid .work-card:last-child{grid-column:1;padding:26px;min-height:0}.impact-grid .work-card h3{margin-top:20px}}
+
+/* Speaking CTA: tactile button with a clear click affordance */
+.speaking-copy .speaking-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:62px;padding:17px 28px;border:1px solid #d6e3f4;border-bottom:2px solid #b9cbe2;border-radius:9px;background:linear-gradient(180deg,#fff 0%,#f0f5fc 100%);color:var(--navy);font-weight:700;text-decoration:none;box-shadow:0 5px 0 #829bb9,0 12px 22px rgba(0,0,0,.17);transform:translateY(0);transition:transform .16s ease,box-shadow .16s ease,background .16s ease;cursor:pointer}
+.speaking-copy .speaking-cta:hover{background:#fff;transform:translateY(-2px);box-shadow:0 7px 0 #829bb9,0 15px 25px rgba(0,0,0,.2)}
+.speaking-copy .speaking-cta:active{transform:translateY(4px);box-shadow:0 1px 0 #829bb9,0 4px 10px rgba(0,0,0,.14)}
+.speaking-copy .speaking-cta:focus-visible{outline:3px solid #a9ccff;outline-offset:5px}
+@media(max-width:620px){.speaking-copy .speaking-cta{width:100%;padding:16px 18px}}
+@media(prefers-reduced-motion:reduce){.speaking-copy .speaking-cta{transition:none}.speaking-copy .speaking-cta:hover,.speaking-copy .speaking-cta:active{transform:none}}
