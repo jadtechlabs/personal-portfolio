@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+      "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+      "date": "2026-10-08T06:32:16.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+      "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+      "date": "2026-10-08T05:46:20.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Ransomware recovery CEO charged over secret ransom payments",
       "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
       "date": "2026-10-07T23:04:37.000Z",
@@ -63,23 +79,7 @@
       "excerpt": "",
       "source": "The Hacker News",
       "category": "AI Risk"
-    },
-    {
-      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-      "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-      "date": "2026-10-07T15:33:51.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-      "date": "2026-10-07T15:04:08.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "AI Risk"
     }
   ],
-  "updatedAt": "2026-10-08T04:57:28.246Z"
+  "updatedAt": "2026-10-08T06:44:00.178Z"
 }
