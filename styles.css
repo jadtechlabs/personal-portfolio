@@ -53,3 +53,17 @@ footer .brand-logo{width:48px;height:48px}
 .speaking-copy .speaking-cta:focus-visible{outline:3px solid #a9ccff;outline-offset:5px}
 @media(max-width:620px){.speaking-copy .speaking-cta{width:100%;padding:16px 18px}}
 @media(prefers-reduced-motion:reduce){.speaking-copy .speaking-cta{transition:none}.speaking-copy .speaking-cta:hover,.speaking-copy .speaking-cta:active{transform:none}}
+
+/* Contact: cohesive editorial layout and clearly clickable CTA */
+.contact-section{padding:84px 0 92px;background:#edf3fd}
+.contact-layout{display:block}
+.contact-content{max-width:760px}
+.contact-layout .eyebrow{margin-bottom:15px}
+.contact-layout h2{max-width:none;margin:0;line-height:1.1}
+.contact-layout .contact-content>p:not(.eyebrow){max-width:640px;margin:22px 0 0;line-height:1.65}
+.contact-layout .contact-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;margin-top:30px;min-width:230px;min-height:58px;padding:15px 28px;border-radius:9px;border:1px solid #1c55b9;border-bottom-color:#17499f;background:linear-gradient(180deg,#3273e1 0%,#2461c8 100%);box-shadow:0 5px 0 #17499f,0 11px 20px rgba(16,43,78,.16);transform:translateY(0);transition:transform .16s ease,box-shadow .16s ease,background .16s ease;cursor:pointer}
+.contact-layout .contact-cta:hover{background:linear-gradient(180deg,#397bea 0%,#286bd7 100%);transform:translateY(-2px);box-shadow:0 7px 0 #17499f,0 14px 22px rgba(16,43,78,.19)}
+.contact-layout .contact-cta:active{transform:translateY(4px);box-shadow:0 1px 0 #17499f,0 3px 8px rgba(16,43,78,.12)}
+.contact-layout .contact-cta:focus-visible{outline:3px solid #2260cc;outline-offset:5px}
+@media(max-width:620px){.contact-section{padding:64px 0 72px}.contact-layout .contact-cta{width:100%;max-width:360px}}
+@media(prefers-reduced-motion:reduce){.contact-layout .contact-cta{transition:none}.contact-layout .contact-cta:hover,.contact-layout .contact-cta:active{transform:none}}
