@@ -33,3 +33,15 @@ footer .brand-logo{width:48px;height:48px}
 .life-gallery figcaption{display:flex;flex-direction:column;align-items:flex-start;gap:5px;line-height:1.4}
 .life-gallery figcaption strong{font-weight:700;color:var(--navy,#17324d)}
 .life-gallery figcaption span{font-size:.87em;font-weight:400;opacity:.85}
+
+/* Selected Work & Impact: balanced, non-interactive project stories */
+.impact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.impact-grid .work-card,.impact-grid .work-card.featured{grid-column:auto;grid-row:auto;min-height:0;height:auto;display:flex;flex-direction:column;gap:0;padding:32px;border-radius:10px;transform:none;transition:none;box-shadow:none;cursor:default}
+.impact-grid .work-card.featured{grid-column:1/-1;padding:40px;min-height:320px}
+.impact-grid .work-card:hover,.impact-grid .work-card.featured:hover{transform:none;box-shadow:none}
+.impact-grid .work-card h3{margin-top:26px;line-height:1.15}
+.impact-grid .work-card.featured h3{max-width:720px}
+.impact-grid .work-card p{max-width:65ch}
+.impact-grid .work-card .card-foot{display:block;margin-top:auto;padding-top:26px;font-size:.86rem;line-height:1.5}
+@media(max-width:900px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.impact-grid .work-card:last-child{grid-column:1/-1}}
+@media(max-width:620px){.impact-grid{grid-template-columns:1fr;gap:16px}.impact-grid .work-card,.impact-grid .work-card.featured,.impact-grid .work-card:last-child{grid-column:1;padding:26px;min-height:0}.impact-grid .work-card h3{margin-top:20px}}
