@@ -1,0 +1,40 @@
+name: Refresh Cyber and AI News
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout portfolio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refresh news from publisher feeds
+        run: npm run refresh:news
+      - name: Commit refreshed headlines if changed
+        run: |
+          if git diff --quiet -- public/data/news.json; then
+            echo "No news changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/news.json
+          git commit -m "Refresh cybersecurity and AI news snapshot"
+          git push
