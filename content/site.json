@@ -1,20 +1,18 @@
 {
   "hero": {
-    "title": "Making Technology Work Better For People",
-    "intro": "I’m Jad Elahmad. I help teams plan and deliver technology initiatives, improve processes, and connect technical work to business priorities."
+    "title": "Technology.\nExecution.\nResults.",
+    "intro": "I’m Jad Elahmad. My experience spans IT infrastructure, cybersecurity, business systems, and project delivery. I work across technical and business teams to turn complex initiatives into practical outcomes."
   },
   "about": {
-    "lead": "Technology works best when people understand the goal and have a clear way to get there.",
-    "paragraph1": "My background spans business systems, IT infrastructure, cybersecurity, service management, and project delivery across global teams. I started by supporting software and business systems, working with engineers, analysts, and leaders to improve how work gets done.",
-    "paragraph2": "Today, I bring those perspectives to project and program management. I help teams agree on priorities, understand dependencies, and turn business and security requirements into work they can carry out."
+    "lead": "I've built my career across technology, operations, and project delivery.",
+    "paragraph1": "I've worked with technical teams and business leaders to improve systems, processes, and the way organizations operate. My experience includes infrastructure modernization, cybersecurity, IT service management, and business systems.",
+    "paragraph2": "That background helps me understand technical details while keeping sight of the planning, communication, and decisions needed to deliver. I enjoy solving practical problems and working with people who bring different perspectives."
   },
   "speaking": {
-    "intro": "I’ve spoken at PASS Data Community Summit in 2022, 2023, and 2024. I enjoy sharing practical experiences and hearing how others approach the challenges of working in technology."
+    "intro": "I’ve had the opportunity to speak at PASS Data Community Summit in 2022, 2023, and 2024. I value exchanging perspectives, learning from others, and contributing to conversations across the technology community."
   },
   "personal": {
-    "paragraph1": "Outside of work, I’m passionate about endurance sports and the challenges that come with them. Whether I’m training for a marathon, spending a long day on the bike, or hiking somewhere new with my wife, I enjoy setting ambitious goals and putting in the work to reach them.",
-    "paragraph2": "Running, cycling, and hiking have taught me a lot about consistency, accountability, and resilience. They help me stay healthy, reset, and connect with others.",
-    "paragraph3": "Some of my favorite experiences come from the communities around these activities: sharing miles, encouraging each other through difficult days, and celebrating what we accomplish together.",
-    "paragraph4": "For me, it’s less about competing with everyone else and more about challenging myself, staying active, and enjoying the people and experiences along the way."
+    "paragraph1": "Outside of work, you’ll usually find me running, cycling, or exploring somewhere outdoors. I enjoy endurance challenges, from preparing for a marathon to spending hours on the bike or hiking a new trail.",
+    "paragraph2": "These activities give me something to work toward, a chance to disconnect, and opportunities to spend time with people who share similar interests."
   }
 }
