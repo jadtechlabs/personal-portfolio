@@ -58,7 +58,7 @@ function renderNews(data) {
     const card = el('article', 'news-card'), meta = el('div', 'meta');
     meta.append(el('span', '', newsHosts.get(new URL(item.url).hostname) + ' · '));
     const time = el('time', '', dateLabel(item.date)); time.dateTime = new Date(item.date).toISOString(); meta.append(time);
-    const title = el('h3'); title.append(link(item.title, item.url)); card.append(meta, title); box.append(card);
+    const title = el('h3'); const headline = link(item.title, item.url); headline.classList.add('news-headline-link'); headline.setAttribute('aria-label', item.title + ' (opens in a new tab)'); title.append(headline); card.append(meta, title); box.append(card);
   });
   box.hidden = false; const status = $('#news-status'); status.textContent = 'Recent Headlines · Original Reporting From External Publications'; status.hidden = false;
   return true;
