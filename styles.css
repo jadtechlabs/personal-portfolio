@@ -67,3 +67,15 @@ footer .brand-logo{width:48px;height:48px}
 .contact-layout .contact-cta:focus-visible{outline:3px solid #2260cc;outline-offset:5px}
 @media(max-width:620px){.contact-section{padding:64px 0 72px}.contact-layout .contact-cta{width:100%;max-width:360px}}
 @media(prefers-reduced-motion:reduce){.contact-layout .contact-cta{transition:none}.contact-layout .contact-cta:hover,.contact-layout .contact-cta:active{transform:none}}
+
+/* News feed: clean editorial links without decorative external arrows */
+.news-grid{column-gap:40px;row-gap:0}
+.news-card{padding:25px 0 27px;min-width:0}
+.news-card .meta{margin-bottom:11px;color:#5d7189;font-size:.86rem;letter-spacing:0}
+.news-card h3{margin:0;font-size:clamp(1.02rem,1.3vw,1.2rem);line-height:1.46;letter-spacing:-.015em}
+.news-card h3 .news-headline-link{display:inline;color:var(--navy);text-decoration:none;transition:color .15s ease,text-decoration-color .15s ease}
+.news-card h3 .news-headline-link:hover{color:#2461c8;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.news-card h3 .news-headline-link:focus-visible{outline:3px solid #2461c8;outline-offset:4px;border-radius:2px}
+.news-card h3 .news-headline-link::after{content:none!important;display:none!important}
+@media(max-width:620px){.news-card{padding:21px 0 23px}.news-grid{column-gap:0}}
+@media(prefers-reduced-motion:reduce){.news-card h3 .news-headline-link{transition:none}}
