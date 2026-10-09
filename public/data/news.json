@@ -1,85 +1,85 @@
 {
   "items": [
     {
+      "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+      "date": "2026-10-09T17:17:23.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+      "date": "2026-10-09T17:02:29.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "date": "2026-10-09T16:29:55.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "date": "2026-10-09T15:38:56.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "How to keep AI agents within their permissions",
+      "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+      "date": "2026-10-09T14:01:11.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "AI Risk"
+    },
+    {
+      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "date": "2026-10-09T13:22:53.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "date": "2026-10-09T12:59:22.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "date": "2026-10-09T12:47:28.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+      "date": "2026-10-09T12:47:26.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
       "date": "2026-10-09T12:32:16.000Z",
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-      "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "date": "2026-10-09T11:30:00.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "Man admits to running network of 15,000 money mules for cybercriminals",
-      "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
-      "date": "2026-10-09T11:14:28.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-      "date": "2026-10-09T10:12:24.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-      "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-      "date": "2026-10-09T09:03:24.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-      "date": "2026-10-09T08:27:42.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-      "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-      "date": "2026-10-09T08:26:17.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-      "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-      "date": "2026-10-09T08:11:33.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-      "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-      "date": "2026-10-09T06:39:29.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-      "date": "2026-10-09T05:41:04.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-09T12:42:05.611Z"
+  "updatedAt": "2026-10-09T18:39:26.429Z"
 }
