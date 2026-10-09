@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+      "date": "2026-10-09T05:41:04.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
       "date": "2026-10-08T21:42:51.000Z",
@@ -71,15 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-      "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
-      "date": "2026-10-08T14:12:34.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
     }
   ],
-  "updatedAt": "2026-10-09T00:49:02.552Z"
+  "updatedAt": "2026-10-09T06:44:07.558Z"
 }
