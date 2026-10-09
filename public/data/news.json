@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+      "date": "2026-10-08T21:42:51.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "date": "2026-10-08T20:09:45.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Low-cost Android phones ship with residential proxy malware",
+      "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "date": "2026-10-08T19:20:33.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+      "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+      "date": "2026-10-08T18:32:21.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+      "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+      "date": "2026-10-08T17:58:02.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
       "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
       "date": "2026-10-08T17:10:55.000Z",
@@ -39,47 +79,7 @@
       "excerpt": "",
       "source": "The Hacker News",
       "category": "AI Risk"
-    },
-    {
-      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
-      "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
-      "date": "2026-10-08T14:00:10.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "AI Risk"
-    },
-    {
-      "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
-      "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
-      "date": "2026-10-08T13:18:36.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Microsoft Teams to get support for third-party deepfake detection tools",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
-      "date": "2026-10-08T12:08:16.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "ASOS links data breach to social engineering attack, credential theft",
-      "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
-      "date": "2026-10-08T11:42:46.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-      "date": "2026-10-08T10:30:00.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-08T18:41:02.312Z"
+  "updatedAt": "2026-10-09T00:49:02.552Z"
 }
