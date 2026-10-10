@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "date": "2026-10-10T12:30:39.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "AI Risk"
+    },
+    {
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "date": "2026-10-10T11:00:00.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "date": "2026-10-10T09:18:45.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
       "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
       "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "date": "2026-10-10T00:17:42.000Z",
@@ -55,31 +79,7 @@
       "excerpt": "",
       "source": "The Hacker News",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
-      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
-      "date": "2026-10-09T15:38:56.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "How to keep AI agents within their permissions",
-      "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-      "date": "2026-10-09T14:01:11.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "AI Risk"
-    },
-    {
-      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-      "date": "2026-10-09T13:22:53.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-10T00:47:08.008Z"
+  "updatedAt": "2026-10-10T12:40:21.345Z"
 }
