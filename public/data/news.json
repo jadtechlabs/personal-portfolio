@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "date": "2026-10-11T04:24:34.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
       "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
       "date": "2026-10-10T15:07:54.000Z",
@@ -71,15 +79,7 @@
       "excerpt": "",
       "source": "The Hacker News",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
-      "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-      "date": "2026-10-09T17:17:23.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-10T18:37:55.764Z"
+  "updatedAt": "2026-10-11T06:42:14.513Z"
 }
