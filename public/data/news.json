@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+      "date": "2026-10-12T11:58:33.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "date": "2026-10-12T11:55:00.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "date": "2026-10-12T11:21:48.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "date": "2026-10-12T10:36:56.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "date": "2026-10-12T09:02:14.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "date": "2026-10-12T07:26:12.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
       "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
       "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
       "date": "2026-10-11T14:23:46.000Z",
@@ -31,55 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "AI Risk"
-    },
-    {
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "date": "2026-10-10T12:30:39.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "AI Risk"
-    },
-    {
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "date": "2026-10-10T11:00:00.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "date": "2026-10-10T09:18:45.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "date": "2026-10-10T00:17:42.000Z",
-      "excerpt": "",
-      "source": "KrebsOnSecurity",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "date": "2026-10-09T20:31:37.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-      "date": "2026-10-09T19:14:28.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-11T18:38:38.429Z"
+  "updatedAt": "2026-10-12T13:02:03.978Z"
 }
