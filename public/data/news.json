@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "date": "2026-10-13T11:09:10.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
+      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "date": "2026-10-13T10:30:00.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
+      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "date": "2026-10-13T08:48:41.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "date": "2026-10-13T08:44:01.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "date": "2026-10-13T08:43:37.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "date": "2026-10-13T06:00:11.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
       "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
       "date": "2026-10-12T20:13:52.000Z",
@@ -31,55 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Cyberattack shuts down refrigerators at French supermarkets",
-      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-      "date": "2026-10-12T15:23:34.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "date": "2026-10-12T15:16:26.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-      "date": "2026-10-12T14:00:10.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-      "date": "2026-10-12T13:51:07.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "GitLab warns of max severity code execution vulnerability",
-      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-      "date": "2026-10-12T13:09:09.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-      "date": "2026-10-12T11:58:33.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-13T00:50:40.274Z"
+  "updatedAt": "2026-10-13T12:49:01.551Z"
 }
