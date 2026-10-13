@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "date": "2026-10-12T20:13:52.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "date": "2026-10-12T19:23:01.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "date": "2026-10-12T18:51:59.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "AI Risk"
+    },
+    {
       "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
       "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
       "date": "2026-10-12T16:27:23.000Z",
@@ -55,31 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-      "date": "2026-10-12T11:55:00.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-      "date": "2026-10-12T11:21:48.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-      "date": "2026-10-12T10:36:56.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-12T18:42:29.872Z"
+  "updatedAt": "2026-10-13T00:50:40.274Z"
 }
