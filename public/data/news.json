@@ -1,85 +1,85 @@
 {
   "items": [
     {
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-      "date": "2026-10-13T11:09:10.000Z",
+      "title": "UK Housing Ombudsman Service investigates 'security incident'",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "date": "2026-10-13T18:19:44.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+      "date": "2026-10-13T17:49:38.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "date": "2026-10-13T16:44:18.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "date": "2026-10-13T16:18:18.000Z",
       "excerpt": "",
       "source": "The Hacker News",
       "category": "Cybersecurity"
     },
     {
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-      "date": "2026-10-13T10:30:00.000Z",
+      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "date": "2026-10-13T15:45:50.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+      "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+      "date": "2026-10-13T15:20:20.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "The MFA Gaps Attackers are Still Exploiting",
+      "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
+      "date": "2026-10-13T14:01:11.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+      "date": "2026-10-13T13:51:02.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+      "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "date": "2026-10-13T13:12:32.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "date": "2026-10-13T11:57:06.000Z",
       "excerpt": "",
       "source": "The Hacker News",
       "category": "AI Risk"
-    },
-    {
-      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-      "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-      "date": "2026-10-13T08:48:41.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-      "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-      "date": "2026-10-13T08:44:01.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-      "date": "2026-10-13T08:43:37.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-      "date": "2026-10-13T06:00:11.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-      "date": "2026-10-12T20:13:52.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Yandex confirms service outage as users lose access to cloud files",
-      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-      "date": "2026-10-12T19:23:01.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-      "date": "2026-10-12T18:51:59.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "AI Risk"
-    },
-    {
-      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "date": "2026-10-12T16:27:23.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-13T12:49:01.551Z"
+  "updatedAt": "2026-10-13T18:46:53.549Z"
 }
