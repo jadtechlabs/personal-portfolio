@@ -1,6 +1,70 @@
 {
   "items": [
     {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "date": "2026-10-13T23:24:53.000Z",
+      "excerpt": "",
+      "source": "KrebsOnSecurity",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "date": "2026-10-13T22:33:02.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "date": "2026-10-13T21:33:26.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "date": "2026-10-13T21:16:34.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "AI Risk"
+    },
+    {
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "date": "2026-10-13T19:56:09.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+      "date": "2026-10-13T19:47:30.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "date": "2026-10-13T19:04:38.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "date": "2026-10-13T18:20:57.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "AI Risk"
+    },
+    {
       "title": "UK Housing Ombudsman Service investigates 'security incident'",
       "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
       "date": "2026-10-13T18:19:44.000Z",
@@ -9,77 +73,13 @@
       "category": "Cybersecurity"
     },
     {
-      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-      "date": "2026-10-13T17:49:38.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
-      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-      "date": "2026-10-13T16:44:18.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-      "date": "2026-10-13T16:18:18.000Z",
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "date": "2026-10-13T18:03:18.000Z",
       "excerpt": "",
       "source": "The Hacker News",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-      "date": "2026-10-13T15:45:50.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-      "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-      "date": "2026-10-13T15:20:20.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "The MFA Gaps Attackers are Still Exploiting",
-      "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-      "date": "2026-10-13T14:01:11.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-      "date": "2026-10-13T13:51:02.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-      "date": "2026-10-13T13:12:32.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "date": "2026-10-13T11:57:06.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
     }
   ],
-  "updatedAt": "2026-10-13T18:46:53.549Z"
+  "updatedAt": "2026-10-14T01:02:41.862Z"
 }
