@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "date": "2026-10-14T05:52:28.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "date": "2026-10-14T04:34:43.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "date": "2026-10-14T01:59:25.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
       "date": "2026-10-13T23:24:53.000Z",
@@ -55,31 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-      "date": "2026-10-13T18:20:57.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
-    },
-    {
-      "title": "UK Housing Ombudsman Service investigates 'security incident'",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
-      "date": "2026-10-13T18:19:44.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-      "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-      "date": "2026-10-13T18:03:18.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-14T01:02:41.862Z"
+  "updatedAt": "2026-10-14T07:05:41.980Z"
 }
