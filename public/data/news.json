@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "date": "2026-10-15T06:17:58.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
       "date": "2026-10-14T22:56:47.000Z",
@@ -71,15 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "date": "2026-10-14T14:22:49.000Z",
-      "excerpt": "",
-      "source": "KrebsOnSecurity",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-15T00:59:54.130Z"
+  "updatedAt": "2026-10-15T07:07:01.237Z"
 }
