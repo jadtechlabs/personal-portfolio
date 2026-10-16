@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "date": "2026-10-16T06:18:08.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
+      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+      "date": "2026-10-16T04:59:36.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
       "date": "2026-10-15T20:25:04.000Z",
@@ -63,23 +79,7 @@
       "excerpt": "",
       "source": "The Hacker News",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-      "date": "2026-10-15T14:11:36.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "Cybersecurity"
-    },
-    {
-      "title": "Is AI pentesting as good as a human pentester?",
-      "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
-      "date": "2026-10-15T14:01:11.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "AI Risk"
     }
   ],
-  "updatedAt": "2026-10-16T00:59:50.182Z"
+  "updatedAt": "2026-10-16T07:06:01.860Z"
 }
