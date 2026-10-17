@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "date": "2026-10-16T20:00:59.000Z",
+      "excerpt": "",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
       "date": "2026-10-16T17:48:45.000Z",
@@ -9,7 +17,7 @@
       "category": "Cybersecurity"
     },
     {
-      "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
       "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
       "date": "2026-10-16T17:20:03.000Z",
       "excerpt": "",
@@ -71,15 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-      "date": "2026-10-16T07:37:35.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-16T18:56:44.502Z"
+  "updatedAt": "2026-10-17T01:01:09.815Z"
 }
