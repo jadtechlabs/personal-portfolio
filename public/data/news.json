@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "date": "2026-10-17T06:16:46.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
       "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "date": "2026-10-16T20:00:59.000Z",
@@ -71,15 +79,7 @@
       "excerpt": "",
       "source": "The Hacker News",
       "category": "AI Risk"
-    },
-    {
-      "title": "Microsoft: October Windows update may break Smart App Control",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-      "date": "2026-10-16T08:44:22.000Z",
-      "excerpt": "",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity"
     }
   ],
-  "updatedAt": "2026-10-17T01:01:09.815Z"
+  "updatedAt": "2026-10-17T07:00:09.495Z"
 }
