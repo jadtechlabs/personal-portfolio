@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "date": "2026-10-17T11:11:56.000Z",
+      "excerpt": "",
+      "source": "The Hacker News",
+      "category": "Cybersecurity"
+    },
+    {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "date": "2026-10-17T06:16:46.000Z",
@@ -71,15 +79,7 @@
       "excerpt": "",
       "source": "BleepingComputer",
       "category": "Cybersecurity"
-    },
-    {
-      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "date": "2026-10-16T11:30:00.000Z",
-      "excerpt": "",
-      "source": "The Hacker News",
-      "category": "AI Risk"
     }
   ],
-  "updatedAt": "2026-10-17T07:00:09.495Z"
+  "updatedAt": "2026-10-17T12:54:54.461Z"
 }
